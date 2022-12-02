@@ -1,4 +1,4 @@
-const db = require("../utils/database");
+const db = require("../utils/database.utils");
 const initModels = require("../models/initModels");
 const { forEach } = require("p-iteration");
 const { User,Product,Order,ProductInCart,ProductInOrder,Cart  } = require("../models");

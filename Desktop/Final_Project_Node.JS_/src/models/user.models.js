@@ -1,4 +1,4 @@
-const db = require("../utils/database");
+const db = require("../utils/database.utils");
 const { DataTypes } = require("sequelize");
 const bcrypt = require("bcrypt");
 

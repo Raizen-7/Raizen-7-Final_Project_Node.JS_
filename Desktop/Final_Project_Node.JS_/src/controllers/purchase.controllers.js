@@ -1,5 +1,5 @@
 const { PurchaseServices, UserServices } = require("../services");
-const transporter = require("../utils/mailer");
+const transporter = require("../utils/mailer.utils");
 
 const purchase = async (req, res, next) =>{
     try {

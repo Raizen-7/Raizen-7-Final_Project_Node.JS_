@@ -1,5 +1,5 @@
 const { UserServices } = require('../services')
-const transporter  = require("../utils/mailer");
+const transporter  = require("../utils/mailer.utils");
 
 const userRegister = async (req, res, next) => {
   try {
